@@ -104,7 +104,10 @@ $ heroku pg:psql
   => insert into test_table values (1, 'hello database');  // insert record
   => \q
 
-$ heroku foreman start web              // browse to database
+$ heroku foreman start web              
+
+http://secure-basin-9103.herokuapp.com                     // browse to database
+
 
 
 Getting Started With NodeJS on Heroku:
